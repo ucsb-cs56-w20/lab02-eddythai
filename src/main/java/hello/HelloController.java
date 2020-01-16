@@ -8,7 +8,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         String html = "<h1>Hello World!</h1>\n" +
-            "<p> This web app is powered by \n" +
+            "<p>This web app is powered by \n" +
             "<a href='https://github.com/ucsb-cs56-w20/lab02-eddythai'>this github repo</a></p>\n";
         return html;
     }
